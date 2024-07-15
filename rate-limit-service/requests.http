@@ -1,0 +1,7 @@
+@baseUrlDev = http://localhost:3001
+@accessKey = qwerty17
+
+###
+GET {{baseUrlDev}}/token HTTP/1.1
+Content-Type: application/json
+access-key:{{accessKey}}
